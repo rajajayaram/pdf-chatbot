@@ -6,6 +6,6 @@ langchain-community
 faiss-cpu
 openai
 tiktoken
-chromadb
+chromadb==0.4.0
 pysqlite3-binary
 protobuf==3.20.*
