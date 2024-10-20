@@ -65,7 +65,7 @@ def get_conversation_chain(vectorstore):
         return None
     
     # Initialize the language model
-    llm = ChatOpenAI(openai_api_key=st.secrets["OPEN_API_KEY"], temperature=0.2)
+    llm = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"], temperature=0.2)
     # Set up memory for conversation history
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
     # Get the custom prompt template
